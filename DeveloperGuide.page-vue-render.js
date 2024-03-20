@@ -206,7 +206,7 @@ with(this){return _c('h3',{attrs:{"id":"product-scope"}},[_v("Product scope"),_c
 with(this){return _c('p',[_c('strong',[_v("Target user profile")]),_v(":")])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("has a need to manage all the employees in company.")]),_v(" "),_c('li',[_v("has a need to check employees' efficiency.")]),_v(" "),_c('li',[_v("can generate a fire list to cut company costs.")]),_v(" "),_c('li',[_v("prefers smooth and eye-catching GUI.")]),_v(" "),_c('li',[_v("prefers typing to mouse interactions.")]),_v(" "),_c('li',[_v("is reasonably comfortable using CLI apps.")])])}
+with(this){return _c('ul',[_c('li',[_v("has a need to manage all the employees in company.")]),_v(" "),_c('li',[_v("can assign tasks to employees.")]),_v(" "),_c('li',[_v("has a need to check employees' efficiency.")]),_v(" "),_c('li',[_v("can generate a fire list to cut company costs.")]),_v(" "),_c('li',[_v("prefers smooth and eye-catching GUI.")]),_v(" "),_c('li',[_v("prefers typing to mouse interactions.")]),_v(" "),_c('li',[_v("is reasonably comfortable using CLI apps.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Value proposition")]),_v(": EffiTrack simplifies the task of measuring and monitoring employee efficiency for\nHR departments. "),_c('br'),_v(" Instead of using time-consuming and error-prone methods like manual documentation or\noutdated systems, EffiTrack offers a centralized platform for easy and accurate monitoring of employee performance.")])}
@@ -341,6 +341,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Wed, 20 Mar 2024, 0:25:11 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Wed, 20 Mar 2024, 19:44:26 GMT+8]")])])])}
 }];
   
