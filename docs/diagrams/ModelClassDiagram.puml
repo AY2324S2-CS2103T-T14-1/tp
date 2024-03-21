@@ -25,6 +25,7 @@ Class UniqueTaskList
 Class Task
 Class Deadline
 Class Title
+Class Priority
 
 Class I #FFFFFF
 }
@@ -56,6 +57,7 @@ UniqueTaskList --> "~* all" Task
 Task *--> Title
 Task *--> Deadline
 Task *--> Person
+Task *--> Priority
 
 Task -[hidden]up--> I
 UniqueTaskList -[hidden]right-> I

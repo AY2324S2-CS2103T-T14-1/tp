@@ -26,4 +26,5 @@ Person *--> Task
 Task *--> Title
 Task *--> Deadline
 Task *--> Person
+Task *--> Priority
 @enduml
