@@ -120,6 +120,7 @@
         "locating-employees-by-department-filter": "Locating employees by department: filter",
         "deleting-a-n-employee-delete": "Deleting a n employee : delete",
         "assign-a-task-assign": "Assign a task: assign",
+        "reassigning-a-task-reassign": "Reassigning a task: reassign",
         "marking-a-task-mark": "Marking a task : mark",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "exiting-the-program-exit": "Exiting the program : exit",
