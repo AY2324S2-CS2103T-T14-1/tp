@@ -52,7 +52,7 @@
         "common-classes": "Common classes",
         "implementation": "Implementation",
         "implemented-undo-redo-feature": "[Implemented] Undo/redo feature",
-        "proposed-data-archiving": "[Proposed] Data archiving",
+        "implemented-assign-task-feature": "[Implemented] Assign task feature",
         "proposed-efficiency-leaderboard": "[Proposed] Efficiency Leaderboard",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-requirements": "Appendix: Requirements",

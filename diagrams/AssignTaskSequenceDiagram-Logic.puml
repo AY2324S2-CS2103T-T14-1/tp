@@ -1,0 +1,85 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+@startuml
+!include style.puml
+skinparam ArrowFontStyle plain
+
+box Logic LOGIC_COLOR_T1
+participant ":LogicManager" as LogicManager LOGIC_COLOR
+participant ":AddressBookParser" as AddressBookParser LOGIC_COLOR
+participant ":AssignTaskCommandParser" as AssignTaskCommandParser LOGIC_COLOR
+participant "at:AssignTaskCommand" as AssignTaskCommand LOGIC_COLOR
+participant "r:CommandResult" as CommandResult LOGIC_COLOR
+end box
+
+box Model MODEL_COLOR_T1
+participant "m:Model" as Model MODEL_COLOR
+end box
+
+[-> LogicManager : execute("assign task/Proposal by/20-05-2024 2359 to/2")
+activate LogicManager
+
+LogicManager -> AddressBookParser : parseCommand("assign task/Proposal by/20-05-2024 2359 to/2")
+activate AddressBookParser
+
+create AssignTaskCommandParser
+AddressBookParser -> AssignTaskCommandParser
+activate AssignTaskCommandParser
+
+AssignTaskCommandParser --> AddressBookParser
+deactivate AssignTaskCommandParser
+
+AddressBookParser -> AssignTaskCommandParser : parse("task/Proposal by/20-05-2024 2359 to/2")
+activate AssignTaskCommandParser
+
+AssignTaskCommandParser -> Model : new Task(Proposal, 20-02-2024 2359)
+activate Model
+Model --> AssignTaskCommandParser : t
+deactivate Model
+
+create AssignTaskCommand
+AssignTaskCommandParser -> AssignTaskCommand
+activate AssignTaskCommand
+
+AssignTaskCommand --> AssignTaskCommandParser
+deactivate AssignTaskCommand
+
+AssignTaskCommandParser --> AddressBookParser: at
+deactivate AssignTaskCommandParser
+
+'Hidden arrow to position the destroy marker below the end of the activation bar.
+AssignTaskCommandParser -[hidden]-> AddressBookParser
+destroy AssignTaskCommandParser
+
+AddressBookParser --> LogicManager: at
+deactivate AddressBookParser
+
+LogicManager -> AssignTaskCommand: execute(m, h)
+activate AssignTaskCommand
+
+AssignTaskCommand -> Model : getFilteredPersonList
+activate Model
+
+Model --> AssignTaskCommand
+deactivate Model
+
+AssignTaskCommand -> Model : assignTask(t, p)
+activate Model
+
+Model --> AssignTaskCommand
+deactivate Model
+
+create CommandResult
+AssignTaskCommand -> CommandResult
+activate CommandResult
+
+CommandResult --> AssignTaskCommand
+deactivate CommandResult
+
+AssignTaskCommand --> LogicManager : r
+deactivate AssignTaskCommand
+
+[<--LogicManager
+deactivate LogicManager
+@enduml
