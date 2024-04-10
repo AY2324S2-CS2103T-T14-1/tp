@@ -123,6 +123,7 @@
         "reassigning-a-task-reassign": "Reassigning a task: reassign",
         "marking-a-task-mark": "Marking a task : mark",
         "finding-a-task-findtask": "Finding a task : findtask",
+        "filtering-employees-by-efficiency-filter-efficiency": "Filtering employees by efficiency: filter_efficiency",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "exiting-the-program-exit": "Exiting the program : exit",
         "undoing-the-previous-command-undo": "Undoing the previous command : undo",
