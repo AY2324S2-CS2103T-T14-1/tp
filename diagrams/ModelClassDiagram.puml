@@ -21,6 +21,7 @@ Class Phone
 Class Department
 Class Tag
 Class Efficiency
+Class Comment
 
 Class UniqueTaskList
 Class Task
@@ -54,6 +55,7 @@ Person *--> Department
 Person *--> "*" Tag
 Person *--> Task
 Person *--> Efficiency
+Person *--> Comment
 
 AddressBook *--> "1" UniqueTaskList
 UniqueTaskList --> "~* all" Task
