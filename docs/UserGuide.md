@@ -428,7 +428,6 @@ Action     | Format, Examples
 **Clear**  | `clear`
 **Undo**   | `undo`
 **Redo**   | `redo`
-**Clear**  | `clear`
 **History**   | `history`
 **Help**   | `help`
 **Exit**   | `exit`
