@@ -11,7 +11,7 @@ with(this){return _c('h1',{attrs:{"id":"effitrack-developer-guide"}},[_v("EffiTr
 with(this){return _c('h2',{attrs:{"id":"acknowledgements"}},[_c('strong',[_v("Acknowledgements")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acknowledgements","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("This project is based on the AddressBook-Level3 project created by the "),_c('a',{attrs:{"href":"https://se-education.org"}},[_v("SE-EDU initiative")]),_v(".")])}
+with(this){return _c('p',[_v("This project is based on the AddressBook-Level3 project created by the "),_c('a',{attrs:{"href":"https://se-education.org"}},[_v("SE-EDU initiative")]),_v(".\nRedo, undo and history commands are adapted from "),_c('a',{attrs:{"href":"https://github.com/se-edu/addressbook-level4/"}},[_v("AddressBook-Level4 project")]),_v(".")])}
 },function anonymous(
 ) {
 with(this){return _c('h2',{attrs:{"id":"setting-up-getting-started"}},[_c('strong',[_v("Setting up, getting started")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#setting-up-getting-started","onclick":"event.stopPropagation()"}})])}
@@ -380,6 +380,6 @@ with(this){return _c('h2',{attrs:{"id":"appendix-planned-enhancements"}},[_c('st
 with(this){return _c('ol',[_c('li',[_v("Handle extreme inputs for name, address, department, tags, email, comment (e.g., a person name with 1000 characters, an index that exceeds the range of "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("int")]),_v("). For this version the text will be truncated or not fully shown as handling extreme input is considered as a nice to have feature, which will be implemented in the future version.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Mon, 15 Apr 2024, 16:36:42 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Mon, 15 Apr 2024, 20:41:39 GMT+8]")])])])}
 }];
   
