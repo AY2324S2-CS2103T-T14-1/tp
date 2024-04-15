@@ -380,6 +380,6 @@ with(this){return _c('h2',{attrs:{"id":"appendix-planned-enhancements"}},[_c('st
 with(this){return _c('ol',[_c('li',[_v("Handle extreme inputs for name, address, department, tags, email, comment (e.g., a person name with 1000 characters, an index that exceeds the range of "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("int")]),_v("). For this version the text will be truncated or not fully shown as handling extreme input is considered as a nice to have feature, which will be implemented in the future version.")]),_v(" "),_c('li',[_v("Simplify mark task command by only taking in index of the person in charge (e.g., "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("mark 1")]),_v(")")]),_v(" "),_c('li',[_v("Fix collapsed task card when a new task is assigned.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Mon, 15 Apr 2024, 23:51:16 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Mon, 15 Apr 2024, 23:59:10 GMT+8]")])])])}
 }];
   
