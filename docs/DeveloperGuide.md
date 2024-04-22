@@ -622,3 +622,5 @@ testers are expected to do more *exploratory* testing.
 Team size: 5
 
 1. Handle extreme inputs for name, address, department, tags, email, comment (e.g., a person name with 1000 characters, an index that exceeds the range of `int`). For this version the text will be truncated or not fully shown as handling extreme input is considered as a nice to have feature, which will be implemented in the future version.
+2. Simplify mark task command by only taking in index of the person in charge (e.g., `mark 1`)
+3. Fix collapsed task card when a new task is assigned.

@@ -66,6 +66,7 @@ public class CommentCommand extends Command {
 
         model.setPerson(personToEdit, editedPerson);
         model.updateFilteredPersonList(PREDICATE_SHOW_ALL_PERSONS);
+        model.commitAddressBook();
 
         return new CommandResult(String.format(MESSAGE_ADD_COMMENT_SUCCESS,
                 Messages.printName(personToEdit)));
