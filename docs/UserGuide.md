@@ -67,7 +67,35 @@ outdated systems, EffiTrack offers a centralized platform for easy and accurate 
 1. Refer to the [Features](#features) below for details of each command.
 
 --------------------------------------------------------------------------------------------------------------------
+## EffiTrack UI Breakdown
 
+<img src="images/mainbreakdown.png" width = "770">
+
+1. Taskbar: For File and Help tabs
+2. Command Box: This is where you input your commands
+3. Result/Error Box: Displays the command results if command is valid and shows error message if command is invalid
+4. Task List: Displays the tasks that are assigned to employees
+5. Employee List: Contains the list of employees with their personal details
+
+<img src="images/personbreakdown.png" width = "770">
+
+1. Name: The name of the employee
+2. Department: The department where the employee is working in
+3. Tags: Tags associated with an employee
+4. Current Task: The task that the employee is working on
+5. Address: The home address of an employee
+6. Email: The email address of an employee
+7. Comment: Remark of an employee
+8. Phone Number: The phone number of an employee
+9. Efficiency: A score that measures the efficiency of employees
+
+<img src="images/taskbreakdown.png" width = "770">
+
+1. Task Title: The task that needs to be done
+2. Deadline: The due date of the task
+3. Person in Charge: The person who is assigned the task
+4. Status: Tracks whether the task is done or not done
+--------------------------------------------------------------------------------------------------------------------
 ## Features
 
 <box type="info" seamless>
